@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+
+<html>
+    <head>
+        <title>Chatbot</title>
+    </head>
+    <style>
+        body{
+            background:white;
+        }
+        h1{
+        background: white;
+        text-align: center;
+        font-size: 38px;
+        padding: 20px 1em;
+        font-weight: bold;
+        margin-left: 35%;
+        margin-right: 35%;
+        cursor: pointer;
+        font-family: Times New Roman;
+    }
+    h3{
+        /* background: #00CC99; */
+        text-align: center;
+        font-size: 20px;
+        /* padding: 20px 1em; */
+        /* font-weight: bold; */
+        /* margin-left: 35%; */
+        /* margin-right: 35%; */
+        cursor: pointer;
+        font-family: Bookman old style  ;
+        color: purple;
+    }
+    input[type=text],[id]{
+        background: #fff;
+        border: 1px solid #000;
+        border-radius: 2px;
+        border-width: 1px;
+        color: #36454b;
+        font-size: 15px;
+        margin: 5px;
+        padding: 12px;
+        display: inline-block;
+        text-align: center;
+    }
+    fieldset{
+        width: 45%;
+        margin: auto;
+        border: 1px solid #000;
+        text-align: left;
+        font-size: 20px;
+        font-family: lato,sans-serif;
+    }
+    </style>
+
+
+    <body>
+    <h3>Hi I'm Sara. May I know your good name please</h3>
+    <h3>I can help you in converting foreign currency to </h3>
+    <h3>Indian and vice versa</h3>
+    <form name = "into">
+    <fieldset>
+    <label> Name</label>
+    <input type="text" name="name" id="name" required>
+    <input type="button" value="Let's Go" onclick="window.location.href = 'conv.html'">
+    </fieldset>
+    </form>
+
+    </body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Currency Converter</title>
+    </head>
+    <style>
+     body{
+        background:skyblue;
+    }
+    
+    h1{
+        background: #00CC99;
+        text-align: center;
+        font-size: 38px;
+        padding: 20px 1em;
+        font-weight: bold;
+        margin-left: 35%;
+        margin-right: 35%;
+        cursor: pointer;
+        font-family: Bookman old style;
+    }
+    h3{
+        /* background: #00CC99; */
+        text-align: center;
+        font-size: 20px;
+        /* padding: 20px 1em; */
+        /* font-weight: bold; */
+        /* margin-left: 35%; */
+        /* margin-right: 35%; */
+        cursor: pointer;
+        font-family: Bookman old style  ;
+        color: purple;
+    }
+    
+    marquee{
+        background: #00FFFF;
+        font-size: 20px;
+        padding-top: 6px;
+        margin: -23px;
+        margin-left: 35%;
+        margin-right: 35%;
+        cursor: pointer;
+    }
+    
+    fieldset{
+        width: 45%;
+        margin: auto;
+        border: 1px solid #000;
+        text-align: left;
+        font-size: 20px;
+        font-family: Bookman Old style;
+    }
+    
+    input[type=number],[id]{
+        background: #fff;
+        border: 1px solid #000;
+        border-radius: 2px;
+        border-width: 1px;
+        color: #36454b;
+        font-size: 15px;
+        margin: 5px;
+        padding: 12px;
+        display: inline-block;
+    }
+    
+    input[type=button]{
+        width: 80px;
+        height: 43px;
+        font-weight: bold;
+    }
+    
+    input[type=reset]{
+        width: 95px;
+        height: 43px;
+        font-weight: bold;
+    }   
+    input[type=text]{
+        font-family: bookman old style;
+    }
+    </style>
+    <script>
+        function currencyConvertor(from, to, value){
+            from = from.toUpperCase()
+            to = to.toUpperCase() 
+            if (from === "INR" && to === "USD"){
+                alert(value*0.014+" American Dollar")
+            }
+            else if (from === "INR" && to === "ASD") {
+                alert(valuvaluee*0.019+" Australian Dollar")
+            }
+            else if (from === "INR" && to === "YEN") {
+                alert(value*1.42+" Japanese Yen")
+            }
+            else if (from === "INR" && to === "EUR") {
+                alert(value*0.011+" Euro")
+            }
+            else if (from === "INR" && to === "GBP") {
+                alert(value*0.010+" Pd Strling")
+            }
+            else if (to === "INR" && from === "USD"){
+                alert(value*0.014+" American Dollar")
+            }
+            else if (to === "INR" && from === "ASD") {
+                alert(value*0.019+" Australian Dollar")
+            }
+            else if (to === "INR" && from === "YEN") {
+                alert(value*1.42+" Japanese Yen")
+            }
+            else if (to === "INR" && from === "EUR") {
+                alert(value*0.011+" Euro")
+            }
+            else if (to === "INR" && from === "GBP") {
+                alert(value*0.010+" Pd Strling")
+            }
+
+            else{
+                alert("Please select from the above only")
+            }
+        }
+    </script>
+
+
+    <body>
+    <h1>Currency Converter</h1>
+    <h3>Available currencies to convert</h3>
+    <h3>INR(India) <=> USD(USA)</h3>
+    <h3>INR(India) <=> ASD(Australia)</h3>
+    <h3>INR(India) <=> YEN(Japan)</h3>
+    <h3>INR(India) <=> EUR(Europe)</h3>
+    <h3>INR(India) <=> GBP(UK)</h3>
+    <marquee>Welcome to Currency Converter</marquee>
+    <br><br>
+
+    <form name="converter">
+    <fieldset>
+    <label>Country Code of exchange (From)</label>
+    <input type="text" name = "from" required> <br><br>
+    <label>Country Code of exchange (To)</label>
+    &nbsp &nbsp 
+    <input type="text" name = "to" required> <br><br>
+    <label>Value of exchange</label>  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp
+    <input type="text" name="values" required ><br> <br>
+    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+    <input type="button" value ="Convert" onclick="currencyConvertor(converter.from.value, converter.to.value, converter.values.value)"><br><br>
+
+    </fieldset>
+    </form>
+    </body>
+
+
+
+
+</html>
