@@ -21,7 +21,7 @@ Summary of the chatbot:
   
   Then the page caluculates the needed requirements and alerts the output caluculation. 
   
-This is a very simple chat bot 
+A short video glimpse on our chatbot: https://youtu.be/CP_8jQbaU9U
 
 
 Some images of the bot:
