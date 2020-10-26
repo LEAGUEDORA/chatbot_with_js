@@ -25,5 +25,10 @@ This is a very simple chat bot
 
 
 Some images of the bot:
-1. The front page of the bot:
 ![Screenshot (187)](https://user-images.githubusercontent.com/61022690/97140326-55f15a00-1782-11eb-988f-58876232e375.png)
+
+![Screenshot (188)](https://user-images.githubusercontent.com/61022690/97140488-be403b80-1782-11eb-8bd7-2b7e9bfaa556.png)
+
+![Screenshot (189)](https://user-images.githubusercontent.com/61022690/97140524-d021de80-1782-11eb-82ad-c457eb7a3aee.png)
+
+![Screenshot (190)](https://user-images.githubusercontent.com/61022690/97140561-e465db80-1782-11eb-8fbb-906d1c046e33.png)
