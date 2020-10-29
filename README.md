@@ -1,34 +1,35 @@
 # jschatbot
-This is a Chat bot developed on Javascript, HTML, CSS
-
+This is a webpage developed with Javascript, HTML, CSS
 
 
 This chatbot is developed and designed by:
-1. Boyinapalli Sandeep Dora (19Pa1A0521) (Java Script)
-2. Allu Daddy Durga Praveen (19Pa1A0503) (HTML)
-3. Aremanda Abhijeeth (19Pa1A0508) (CSS)
+1. Boyinapalli Sandeep Dora (19Pa1A0521) 
+2. Allu Daddy Durga Praveen (19Pa1A0503)
+3. Aremanda Abhijeeth (19Pa1A0508)
 
 
 This code is wriiten in repl.it website.
-Link for the website is https://repl.it/@BoyinapalliSand/chatbot
+Link for the website is https://repl.it/@BoyinapalliSand/chatbot#main.html
 
 
-Summary of the chatbot:
-  This chatbot developed by us starts with a page asking the name of the User and by pressing the Go buttonn the page redirects to another page where the needs to enter the 
-  (a)   Currency From
-  (b)   Currency To
-  (c)   Currency Value
+
+This website is a page developed to report players in a multiplayer battleground game named "PUBG"
+
+This website consists of 4 pages:
+  1. Home Page (main.html)
+  2. About Us (about_us.html)
+  3. Contact Us (contact_us.html)
+  4. Report Page (report.html)
   
-  Then the page caluculates the needed requirements and alerts the output caluculation. 
   
-A short video glimpse on our chatbot: https://youtu.be/CP_8jQbaU9U
-
-
-Some images of the bot:
-![Screenshot (187)](https://user-images.githubusercontent.com/61022690/97140326-55f15a00-1782-11eb-988f-58876232e375.png)
-
-![Screenshot (188)](https://user-images.githubusercontent.com/61022690/97140488-be403b80-1782-11eb-8bd7-2b7e9bfaa556.png)
-
-![Screenshot (189)](https://user-images.githubusercontent.com/61022690/97140524-d021de80-1782-11eb-82ad-c457eb7a3aee.png)
-
-![Screenshot (190)](https://user-images.githubusercontent.com/61022690/97140561-e465db80-1782-11eb-8fbb-906d1c046e33.png)
+ The main page is the home page. In "About Us" there are the details of the game. In "Contact Us" page details of the Public Relation Department are available.
+ In "Report" page there consists of the details of "Player ID" "Oponent ID" "Cheats Used". Then the page alerts with the conformation message.
+ 
+ The pics used in the development of these pages belongs to some websites on the Internet.
+ 
+ 
+ A small demo video of the webpage is uploaded to YouTube  https://youtu.be/1PCM_fkNC4M
+ 
+ 
+ Some of the screen shots of the pages are here:
+ 
