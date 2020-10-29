@@ -32,4 +32,15 @@ This website consists of 4 pages:
  
  
  Some of the screen shots of the pages are here:
- 
+Home Page:
+![Screenshot (194)](https://user-images.githubusercontent.com/61022690/97579583-3c694000-1a18-11eb-9618-836d6ab98364.png)
+Animations of Buttons:
+![Screenshot (195)](https://user-images.githubusercontent.com/61022690/97579589-3e330380-1a18-11eb-93a7-99b2f234d370.png)
+Contact Us page:
+![Screenshot (197)](https://user-images.githubusercontent.com/61022690/97579600-412df400-1a18-11eb-86a4-02cacd438f88.png)
+Report Page
+![Screenshot (198)](https://user-images.githubusercontent.com/61022690/97579606-41c68a80-1a18-11eb-8795-501688aefefb.png)
+Alerting with Details entered
+![Screenshot (199)](https://user-images.githubusercontent.com/61022690/97579609-42f7b780-1a18-11eb-82f0-354c8ba0208f.png)
+About Us page
+![Screenshot (196)](https://user-images.githubusercontent.com/61022690/97579595-3f643080-1a18-11eb-8441-bdc07d085442.png)
